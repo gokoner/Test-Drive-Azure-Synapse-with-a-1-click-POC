@@ -1,0 +1,10 @@
+{
+	"name": "synapse-ws-sqlOnDemand--msft66z263zgwukokpocws1",
+	"properties": {
+		"privateLinkResourceId": "/subscriptions/8357595d-afaf-46ee-a423-916676006611/resourceGroups/synapse-poc-gk/providers/Microsoft.Synapse/workspaces/msft66z263zgwukokpocws1",
+		"groupId": "sqlOnDemand",
+		"fqdns": [
+			"msft66z263zgwukokpocws1-ondemand.d9238089-1b4a-4ef7-b8da-2eea9f6cbe32.sql.azuresynapse.net"
+		]
+	}
+}
