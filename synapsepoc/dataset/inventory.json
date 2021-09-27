@@ -1,0 +1,16 @@
+{
+	"name": "inventory",
+	"properties": {
+		"annotations": [],
+		"type": "SqlPoolTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "inventory"
+		},
+		"sqlPool": {
+			"referenceName": "gkmsbnm7avmn5kpcmpocws1p1",
+			"type": "SqlPoolReference"
+		}
+	}
+}
