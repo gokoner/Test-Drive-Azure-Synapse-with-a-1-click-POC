@@ -1,0 +1,40 @@
+{
+	"name": "inventoryDataset",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "TonioStorageAccount",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "TonioStorage"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"folderPath": "tpcds1tbparquet/inventory",
+				"fileSystem": "synapse"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": [
+			{
+				"name": "inv_date_sk",
+				"type": "INT32"
+			},
+			{
+				"name": "inv_item_sk",
+				"type": "INT32"
+			},
+			{
+				"name": "inv_warehouse_sk",
+				"type": "INT32"
+			},
+			{
+				"name": "inv_quantity_on_hand",
+				"type": "INT32"
+			}
+		]
+	}
+}

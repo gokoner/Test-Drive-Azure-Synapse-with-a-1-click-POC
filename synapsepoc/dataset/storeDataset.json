@@ -1,0 +1,141 @@
+{
+	"name": "storeDataset",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "TonioStorageAccount",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"folderPath": "tpcds1tbparquet/store",
+				"fileSystem": "synapse"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": [
+			{
+				"name": "s_store_sk",
+				"type": "INT32"
+			},
+			{
+				"name": "s_store_id",
+				"type": "UTF8"
+			},
+			{
+				"name": "s_rec_start_date",
+				"type": "DATE"
+			},
+			{
+				"name": "s_rec_end_date",
+				"type": "DATE"
+			},
+			{
+				"name": "s_closed_date_sk",
+				"type": "INT32"
+			},
+			{
+				"name": "s_store_name",
+				"type": "UTF8"
+			},
+			{
+				"name": "s_number_employees",
+				"type": "INT32"
+			},
+			{
+				"name": "s_floor_space",
+				"type": "INT32"
+			},
+			{
+				"name": "s_hours",
+				"type": "UTF8"
+			},
+			{
+				"name": "s_manager",
+				"type": "UTF8"
+			},
+			{
+				"name": "s_market_id",
+				"type": "INT32"
+			},
+			{
+				"name": "s_geography_class",
+				"type": "UTF8"
+			},
+			{
+				"name": "s_market_desc",
+				"type": "UTF8"
+			},
+			{
+				"name": "s_market_manager",
+				"type": "UTF8"
+			},
+			{
+				"name": "s_division_id",
+				"type": "INT32"
+			},
+			{
+				"name": "s_division_name",
+				"type": "UTF8"
+			},
+			{
+				"name": "s_company_id",
+				"type": "INT32"
+			},
+			{
+				"name": "s_company_name",
+				"type": "UTF8"
+			},
+			{
+				"name": "s_street_number",
+				"type": "UTF8"
+			},
+			{
+				"name": "s_street_name",
+				"type": "UTF8"
+			},
+			{
+				"name": "s_street_type",
+				"type": "UTF8"
+			},
+			{
+				"name": "s_suite_number",
+				"type": "UTF8"
+			},
+			{
+				"name": "s_city",
+				"type": "UTF8"
+			},
+			{
+				"name": "s_county",
+				"type": "UTF8"
+			},
+			{
+				"name": "s_state",
+				"type": "UTF8"
+			},
+			{
+				"name": "s_zip",
+				"type": "UTF8"
+			},
+			{
+				"name": "s_country",
+				"type": "UTF8"
+			},
+			{
+				"name": "s_gmt_offset",
+				"type": "DECIMAL",
+				"precision": 5,
+				"scale": 2
+			},
+			{
+				"name": "s_tax_precentage",
+				"type": "DECIMAL",
+				"precision": 5,
+				"scale": 2
+			}
+		]
+	}
+}
