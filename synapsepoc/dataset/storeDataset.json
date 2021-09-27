@@ -5,6 +5,9 @@
 			"referenceName": "TonioStorageAccount",
 			"type": "LinkedServiceReference"
 		},
+		"folder": {
+			"name": "TonioStorage"
+		},
 		"annotations": [],
 		"type": "Parquet",
 		"typeProperties": {
